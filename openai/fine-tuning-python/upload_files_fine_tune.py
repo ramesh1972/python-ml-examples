@@ -45,25 +45,6 @@ print(f"Training Response: {response}")
 print(f"Training Status: {status}")
 print("-------------------------")
 
-""" # stream events from the fine tune job created in Open AI
-def signal_handler(sig, frame):
-	status = openai.FineTune.retrieve(job_id).status
-	print(f"Stream interrupted. Job is still {status}.")
-	return
-
-print("-------------------------")
-print(f'Streaming events for the fine-tuning job: {job_id}')
-signal.signal(signal.SIGINT, signal_handler) """
-
-# try:
-#for event in response:
- #   print(event)
-
-# except Exception:
-# 	print("Stream interrupted (client disconnected).")
-
-print("-------------------------")
-
 import time
 
 # print job status
