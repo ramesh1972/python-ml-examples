@@ -1,7 +1,7 @@
 from openai import OpenAI
 import json
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 messages = [{"role": "user", "content": "The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1."},
             {"role": "user", "content": "A: The answer is False."},

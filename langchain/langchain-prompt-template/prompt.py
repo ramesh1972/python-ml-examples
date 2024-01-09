@@ -8,11 +8,11 @@ def generate_pet_name(animal_type="dog"):
     
     prompt_template = PromptTemplate(
         input_variables=['animal_type'],
-        template="I have a {animal_type} as my pet. Suggest me a name for it.",
+        template="I have a {animal_type} as my pet. Suggest me 5 names for it.",
     )
 
     name_chain = LLMChain(
-        llm=OpenAI(api_key="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"),
+        llm=OpenAI(api_key="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"),
         prompt=prompt_template,
     )
 
