@@ -3,7 +3,7 @@ import json
 import time
 import os
 
-openai.api_key="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"
+openai.api_key="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"
 
 timestamp = time.strftime("%Y_%m_%d-%H_%M_%S", time.gmtime())
 filename = timestamp + ".txt"

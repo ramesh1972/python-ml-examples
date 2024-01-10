@@ -1,10 +1,10 @@
 from openai import OpenAI
 import json
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 messages = [{"role": "system", "content": "you are a sentiment analsyer"},
-            {"role": "user", "content": "classify the sentiment as positive, negative or neutral"},
+            {"role": "user", "content": "   "},
             {"role": "user", "content": "the product is working well"},]
 
 # prompt technique
