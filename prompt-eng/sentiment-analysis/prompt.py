@@ -1,11 +1,10 @@
 from openai import OpenAI
 import json
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 messages = [{"role": "system", "content": "you are a sentiment analsyer"},
-            {"role": "user", "content": "   "},
-            {"role": "user", "content": "the product is working well"},]
+            {"role": "user", "content": "the product is doing ok"},]
 
 # prompt technique
 response = client.chat.completions.create(
